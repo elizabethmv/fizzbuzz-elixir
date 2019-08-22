@@ -1,21 +1,10 @@
-# FizzbuzzElixir
+## Fizzbuzz kata
+Write a program that prints one line for each number from 1 to 100
+For multiples of three print Fizz instead of the number
+For the multiples of five print Buzz instead of the number
+For numbers which are multiples of both three and five print FizzBuzz instead of the number
 
-**TODO: Add description**
-
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `fizzbuzz_elixir` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:fizzbuzz_elixir, "~> 0.1.0"}
-  ]
-end
+Command to run tests:
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/fizzbuzz_elixir](https://hexdocs.pm/fizzbuzz_elixir).
-
+mix test test/fizzbuzz_elixir_test.exs
+```

@@ -1,18 +1,6 @@
 defmodule FizzbuzzElixir do
-  @moduledoc """
-  Documentation for FizzbuzzElixir.
-  """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> FizzbuzzElixir.hello()
-      :world
-
-  """
-  def hello do
-    :world
+  def fizzbuzz do
+    range = 1..100
+    range
   end
 end
