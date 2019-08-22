@@ -1,6 +1,5 @@
 defmodule FizzbuzzElixir do
   def fizzbuzz do
-    range = 1..100
-    range
+    Enum.to_list(1..100)
   end
 end
